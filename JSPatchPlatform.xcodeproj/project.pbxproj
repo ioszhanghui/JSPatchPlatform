@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DB212B1F1F9D1A00BBC30C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DB212A1F1F9D1A00BBC30C /* SecondViewController.m */; };
+		13FF7B9B1F1E50190057FBDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF7B9A1F1E50190057FBDB /* main.m */; };
+		13FF7B9E1F1E50190057FBDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF7B9D1F1E50190057FBDB /* AppDelegate.m */; };
+		13FF7BA11F1E50190057FBDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF7BA01F1E50190057FBDB /* ViewController.m */; };
+		13FF7BA61F1E50190057FBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FF7BA51F1E50190057FBDB /* Assets.xcassets */; };
+		13FF7BA91F1E50190057FBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FF7BA71F1E50190057FBDB /* LaunchScreen.storyboard */; };
+		13FF7BB41F1E50190057FBDB /* JSPatchPlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF7BB31F1E50190057FBDB /* JSPatchPlatformTests.m */; };
+		13FF7BBF1F1E50190057FBDB /* JSPatchPlatformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF7BBE1F1E50190057FBDB /* JSPatchPlatformUITests.m */; };
+		13FF7BCD1F1E50850057FBDB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FF7BCC1F1E50850057FBDB /* libz.tbd */; };
+		13FF7BCF1F1E50930057FBDB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FF7BCE1F1E50930057FBDB /* JavaScriptCore.framework */; };
+		18003D9DFF9C07A1C496C936 /* libPods-JSPatchPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA87F0275338361F956F25DB /* libPods-JSPatchPlatform.a */; };
+		7FFB269ED2EC035C17B10455 /* libPods-JSPatchPlatformTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E790100B35EC23FBAF3A91 /* libPods-JSPatchPlatformTests.a */; };
+		C7F2623AD11803568AADC11A /* libPods-JSPatchPlatformUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1721AE8DC55E85BC5729F64 /* libPods-JSPatchPlatformUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FF7BB01F1E50190057FBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FF7B8E1F1E50190057FBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FF7B951F1E50190057FBDB;
+			remoteInfo = JSPatchPlatform;
+		};
+		13FF7BBB1F1E50190057FBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FF7B8E1F1E50190057FBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FF7B951F1E50190057FBDB;
+			remoteInfo = JSPatchPlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B6CF7DD96317276356DE48 /* Pods-JSPatchPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatformTests/Pods-JSPatchPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
+		13DB21291F1F9D1A00BBC30C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		13DB212A1F1F9D1A00BBC30C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		13FF7B961F1E50190057FBDB /* JSPatchPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPatchPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FF7B9A1F1E50190057FBDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13FF7B9C1F1E50190057FBDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13FF7B9D1F1E50190057FBDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13FF7B9F1F1E50190057FBDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13FF7BA01F1E50190057FBDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13FF7BA51F1E50190057FBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13FF7BA81F1E50190057FBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13FF7BAA1F1E50190057FBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FF7BAF1F1E50190057FBDB /* JSPatchPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FF7BB31F1E50190057FBDB /* JSPatchPlatformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchPlatformTests.m; sourceTree = "<group>"; };
+		13FF7BB51F1E50190057FBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FF7BBA1F1E50190057FBDB /* JSPatchPlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchPlatformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FF7BBE1F1E50190057FBDB /* JSPatchPlatformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchPlatformUITests.m; sourceTree = "<group>"; };
+		13FF7BC01F1E50190057FBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FF7BCC1F1E50850057FBDB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		13FF7BCE1F1E50930057FBDB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		38E790100B35EC23FBAF3A91 /* libPods-JSPatchPlatformTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchPlatformTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A5FADB8C02FA9C298AD2C3 /* Pods-JSPatchPlatformUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatformUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatformUITests/Pods-JSPatchPlatformUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87139863322DC1C09B67496F /* Pods-JSPatchPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatform/Pods-JSPatchPlatform.debug.xcconfig"; sourceTree = "<group>"; };
+		AA87F0275338361F956F25DB /* libPods-JSPatchPlatform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchPlatform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1721AE8DC55E85BC5729F64 /* libPods-JSPatchPlatformUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchPlatformUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD15BA7237607B101408CC2D /* Pods-JSPatchPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatform/Pods-JSPatchPlatform.release.xcconfig"; sourceTree = "<group>"; };
+		EEF3C98E7E40B4BE9F54D8E3 /* Pods-JSPatchPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatformTests/Pods-JSPatchPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD03FBF7CFF004577FD7134C /* Pods-JSPatchPlatformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchPlatformUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchPlatformUITests/Pods-JSPatchPlatformUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FF7B931F1E50190057FBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FF7BCF1F1E50930057FBDB /* JavaScriptCore.framework in Frameworks */,
+				13FF7BCD1F1E50850057FBDB /* libz.tbd in Frameworks */,
+				18003D9DFF9C07A1C496C936 /* libPods-JSPatchPlatform.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BAC1F1E50190057FBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFB269ED2EC035C17B10455 /* libPods-JSPatchPlatformTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BB71F1E50190057FBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F2623AD11803568AADC11A /* libPods-JSPatchPlatformUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FF7B8D1F1E50190057FBDB = {
+			isa = PBXGroup;
+			children = (
+				13FF7B981F1E50190057FBDB /* JSPatchPlatform */,
+				13FF7BB21F1E50190057FBDB /* JSPatchPlatformTests */,
+				13FF7BBD1F1E50190057FBDB /* JSPatchPlatformUITests */,
+				13FF7B971F1E50190057FBDB /* Products */,
+				B63A884F95CB37E6582A6548 /* Pods */,
+				C3B9F1C03DA55E1B7EF52260 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13FF7B971F1E50190057FBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7B961F1E50190057FBDB /* JSPatchPlatform.app */,
+				13FF7BAF1F1E50190057FBDB /* JSPatchPlatformTests.xctest */,
+				13FF7BBA1F1E50190057FBDB /* JSPatchPlatformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FF7B981F1E50190057FBDB /* JSPatchPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7B9C1F1E50190057FBDB /* AppDelegate.h */,
+				13FF7B9D1F1E50190057FBDB /* AppDelegate.m */,
+				13DB21291F1F9D1A00BBC30C /* SecondViewController.h */,
+				13DB212A1F1F9D1A00BBC30C /* SecondViewController.m */,
+				13FF7B9F1F1E50190057FBDB /* ViewController.h */,
+				13FF7BA01F1E50190057FBDB /* ViewController.m */,
+				13FF7BA51F1E50190057FBDB /* Assets.xcassets */,
+				13FF7BA71F1E50190057FBDB /* LaunchScreen.storyboard */,
+				13FF7BAA1F1E50190057FBDB /* Info.plist */,
+				13FF7B991F1E50190057FBDB /* Supporting Files */,
+			);
+			path = JSPatchPlatform;
+			sourceTree = "<group>";
+		};
+		13FF7B991F1E50190057FBDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7B9A1F1E50190057FBDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13FF7BB21F1E50190057FBDB /* JSPatchPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7BB31F1E50190057FBDB /* JSPatchPlatformTests.m */,
+				13FF7BB51F1E50190057FBDB /* Info.plist */,
+			);
+			path = JSPatchPlatformTests;
+			sourceTree = "<group>";
+		};
+		13FF7BBD1F1E50190057FBDB /* JSPatchPlatformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7BBE1F1E50190057FBDB /* JSPatchPlatformUITests.m */,
+				13FF7BC01F1E50190057FBDB /* Info.plist */,
+			);
+			path = JSPatchPlatformUITests;
+			sourceTree = "<group>";
+		};
+		B63A884F95CB37E6582A6548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87139863322DC1C09B67496F /* Pods-JSPatchPlatform.debug.xcconfig */,
+				DD15BA7237607B101408CC2D /* Pods-JSPatchPlatform.release.xcconfig */,
+				EEF3C98E7E40B4BE9F54D8E3 /* Pods-JSPatchPlatformTests.debug.xcconfig */,
+				08B6CF7DD96317276356DE48 /* Pods-JSPatchPlatformTests.release.xcconfig */,
+				55A5FADB8C02FA9C298AD2C3 /* Pods-JSPatchPlatformUITests.debug.xcconfig */,
+				FD03FBF7CFF004577FD7134C /* Pods-JSPatchPlatformUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3B9F1C03DA55E1B7EF52260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FF7BCE1F1E50930057FBDB /* JavaScriptCore.framework */,
+				13FF7BCC1F1E50850057FBDB /* libz.tbd */,
+				AA87F0275338361F956F25DB /* libPods-JSPatchPlatform.a */,
+				38E790100B35EC23FBAF3A91 /* libPods-JSPatchPlatformTests.a */,
+				D1721AE8DC55E85BC5729F64 /* libPods-JSPatchPlatformUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FF7B951F1E50190057FBDB /* JSPatchPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FF7BC31F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatform" */;
+			buildPhases = (
+				9F31CE004A7C3A8889C97174 /* [CP] Check Pods Manifest.lock */,
+				13FF7B921F1E50190057FBDB /* Sources */,
+				13FF7B931F1E50190057FBDB /* Frameworks */,
+				13FF7B941F1E50190057FBDB /* Resources */,
+				80704D1D8791EA5822C71217 /* [CP] Embed Pods Frameworks */,
+				72B612F50427FA07C6A86E93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatchPlatform;
+			productName = JSPatchPlatform;
+			productReference = 13FF7B961F1E50190057FBDB /* JSPatchPlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13FF7BAE1F1E50190057FBDB /* JSPatchPlatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FF7BC61F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatformTests" */;
+			buildPhases = (
+				0B10A0BE8C3C5004BDDD6CAC /* [CP] Check Pods Manifest.lock */,
+				13FF7BAB1F1E50190057FBDB /* Sources */,
+				13FF7BAC1F1E50190057FBDB /* Frameworks */,
+				13FF7BAD1F1E50190057FBDB /* Resources */,
+				86D70E17F33BF2E95AAB3114 /* [CP] Embed Pods Frameworks */,
+				BCBDE7F204847C63CBD5283B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FF7BB11F1E50190057FBDB /* PBXTargetDependency */,
+			);
+			name = JSPatchPlatformTests;
+			productName = JSPatchPlatformTests;
+			productReference = 13FF7BAF1F1E50190057FBDB /* JSPatchPlatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13FF7BB91F1E50190057FBDB /* JSPatchPlatformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FF7BC91F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatformUITests" */;
+			buildPhases = (
+				D2DD3998042B841731EF4048 /* [CP] Check Pods Manifest.lock */,
+				13FF7BB61F1E50190057FBDB /* Sources */,
+				13FF7BB71F1E50190057FBDB /* Frameworks */,
+				13FF7BB81F1E50190057FBDB /* Resources */,
+				DD37E722FE3BC5974ECF1E06 /* [CP] Embed Pods Frameworks */,
+				B8FFDFEFE2879C56082FA41D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FF7BBC1F1E50190057FBDB /* PBXTargetDependency */,
+			);
+			name = JSPatchPlatformUITests;
+			productName = JSPatchPlatformUITests;
+			productReference = 13FF7BBA1F1E50190057FBDB /* JSPatchPlatformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FF7B8E1F1E50190057FBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "小飞鸟";
+				TargetAttributes = {
+					13FF7B951F1E50190057FBDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DVSEF92325;
+						ProvisioningStyle = Automatic;
+					};
+					13FF7BAE1F1E50190057FBDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13FF7B951F1E50190057FBDB;
+					};
+					13FF7BB91F1E50190057FBDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13FF7B951F1E50190057FBDB;
+					};
+				};
+			};
+			buildConfigurationList = 13FF7B911F1E50190057FBDB /* Build configuration list for PBXProject "JSPatchPlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FF7B8D1F1E50190057FBDB;
+			productRefGroup = 13FF7B971F1E50190057FBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FF7B951F1E50190057FBDB /* JSPatchPlatform */,
+				13FF7BAE1F1E50190057FBDB /* JSPatchPlatformTests */,
+				13FF7BB91F1E50190057FBDB /* JSPatchPlatformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FF7B941F1E50190057FBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FF7BA91F1E50190057FBDB /* LaunchScreen.storyboard in Resources */,
+				13FF7BA61F1E50190057FBDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BAD1F1E50190057FBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BB81F1E50190057FBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B10A0BE8C3C5004BDDD6CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72B612F50427FA07C6A86E93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatform/Pods-JSPatchPlatform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80704D1D8791EA5822C71217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatform/Pods-JSPatchPlatform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D70E17F33BF2E95AAB3114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatformTests/Pods-JSPatchPlatformTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F31CE004A7C3A8889C97174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FFDFEFE2879C56082FA41D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatformUITests/Pods-JSPatchPlatformUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCBDE7F204847C63CBD5283B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatformTests/Pods-JSPatchPlatformTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DD3998042B841731EF4048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD37E722FE3BC5974ECF1E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchPlatformUITests/Pods-JSPatchPlatformUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FF7B921F1E50190057FBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DB212B1F1F9D1A00BBC30C /* SecondViewController.m in Sources */,
+				13FF7BA11F1E50190057FBDB /* ViewController.m in Sources */,
+				13FF7B9E1F1E50190057FBDB /* AppDelegate.m in Sources */,
+				13FF7B9B1F1E50190057FBDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BAB1F1E50190057FBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FF7BB41F1E50190057FBDB /* JSPatchPlatformTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FF7BB61F1E50190057FBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FF7BBF1F1E50190057FBDB /* JSPatchPlatformUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FF7BB11F1E50190057FBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FF7B951F1E50190057FBDB /* JSPatchPlatform */;
+			targetProxy = 13FF7BB01F1E50190057FBDB /* PBXContainerItemProxy */;
+		};
+		13FF7BBC1F1E50190057FBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FF7B951F1E50190057FBDB /* JSPatchPlatform */;
+			targetProxy = 13FF7BBB1F1E50190057FBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13FF7BA71F1E50190057FBDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FF7BA81F1E50190057FBDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13FF7BC11F1E501A0057FBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13FF7BC21F1E501A0057FBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FF7BC41F1E501A0057FBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87139863322DC1C09B67496F /* Pods-JSPatchPlatform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				INFOPLIST_FILE = JSPatchPlatform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghe.git;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13FF7BC51F1E501A0057FBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD15BA7237607B101408CC2D /* Pods-JSPatchPlatform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				INFOPLIST_FILE = JSPatchPlatform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghe.git;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13FF7BC71F1E501A0057FBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF3C98E7E40B4BE9F54D8E3 /* Pods-JSPatchPlatformTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPatchPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5.zh.JSPatchPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchPlatform.app/JSPatchPlatform";
+			};
+			name = Debug;
+		};
+		13FF7BC81F1E501A0057FBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B6CF7DD96317276356DE48 /* Pods-JSPatchPlatformTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPatchPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5.zh.JSPatchPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchPlatform.app/JSPatchPlatform";
+			};
+			name = Release;
+		};
+		13FF7BCA1F1E501A0057FBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A5FADB8C02FA9C298AD2C3 /* Pods-JSPatchPlatformUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5.zh.JSPatchPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPatchPlatform;
+			};
+			name = Debug;
+		};
+		13FF7BCB1F1E501A0057FBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD03FBF7CFF004577FD7134C /* Pods-JSPatchPlatformUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5.zh.JSPatchPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPatchPlatform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FF7B911F1E50190057FBDB /* Build configuration list for PBXProject "JSPatchPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FF7BC11F1E501A0057FBDB /* Debug */,
+				13FF7BC21F1E501A0057FBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FF7BC31F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FF7BC41F1E501A0057FBDB /* Debug */,
+				13FF7BC51F1E501A0057FBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FF7BC61F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FF7BC71F1E501A0057FBDB /* Debug */,
+				13FF7BC81F1E501A0057FBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FF7BC91F1E501A0057FBDB /* Build configuration list for PBXNativeTarget "JSPatchPlatformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FF7BCA1F1E501A0057FBDB /* Debug */,
+				13FF7BCB1F1E501A0057FBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13FF7B8E1F1E50190057FBDB /* Project object */;
+}
